@@ -50,7 +50,7 @@ const CONFIG = {
   //       },
   //     ],
   //   },
-  // },
+  },
   seo: {
     title: 'Portfolio of Xiang-Zhen Chen',
     description: '',
