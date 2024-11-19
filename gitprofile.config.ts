@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 6, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -52,31 +52,31 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Xiang-Zhen Chen',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'xzh_0623',
     reddit: '',
-    threads: '',
+    threads: 'xzh_0623',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    skype: '陳庠蓁',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.xzh0623.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'ss612270623@gmail.com',
   },
   resume: {
     fileUrl:
@@ -84,83 +84,71 @@ const CONFIG = {
   },
   skills: [
     'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
+    'Python',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Data-Analysis',
+    'Machine Learning',
+    'Scikit-Learn',
+    'Tenserflow'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Institution of Information Science, Academia Sinica',
+      position: 'Summer Intern',
+      from: 'July 2024',
+      to: 'August 2024',
+      companyLink: 'https://www.iis.sinica.edu.tw/zh/index.html',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'National Taipei University of Technology',
+      degree: 'CSIE Bachelor\'s Degree',
+      from: '2021',
+      to: '2025',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    // {
+    //   institution: 'Institution Name',
+    //   degree: 'Degree',
+    //   from: '2012',
+    //   to: '2024',
+    // },
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Analysis of DNA Methylation Biomarkers through Liquid Biopsies for Early Breast Cancer Detection',
+      conferenceName: 'ICS 2024 Conference Proceedings',
+      // journalName: 'Journal Name',
+      authors: 'Xiang-Zhen Chen, Chia-Yun Ou, Geng-Hong Hsiao, Hui-Wu Zhang, Tun-Wen Pai and Mee-Hoong See',
+      link: 'https://ics2024.conf.nycu.edu.tw/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'According to World Health Organization (WHO) and World Cancer Research Fund International (WCRF International), breast cancer has become the most common cancer globally, significantly impacting women's health. This study utilized GDC and GEO public methylation chip datasets from breast cancer patients. Combined with comorbidity data analysis of these patients, critical biomarkers were identified through analyzing differential expression levels of methylation loci, serving as indicators for breast cancer risk assessment. Gene Ontology (GO) functional annotations were applied for hierarchical clustering. Functional similarities between any two genetic loci were evaluated based on their annotated GO terms, enabling the observation of candidate biomarker relationships for diagnosis biomarker selection. Furthermore, by integrating Boruta for feature selection and applying Recursive Feature Elimination (RFE) to evaluate the performance of various machine learning models, the optimal methylation biomarker combinations for breast cancer detection could be identified. The results identified eight important DNA methylation biomarkers, including CMTM5, PDCD1LG2, MIR124-3, NEFM, PTF1A, CX3CL1, PCYT2, and KCNE3 as important biomarker candidates. After functional clustering analysis, these markers exhibited excellent performance with three biomarker combinations for both tissue and liquid samples from breast cancer patients, with average prediction accuracies ranging from 0.91 to 0.93 for tissue samples and from 0.71 to 0.76 for liquid samples. Early observation of methylation differences from the suggested breast cancer biomarkers could prevent tumor formation and reduce the risk of surgical operations by early precision diagnosis and treatment.',
     },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: 'Conference Name',
+  //     journalName: '',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    username: 'xzh0623', // to hide blog section, keep it empty
+    limit: 1, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
