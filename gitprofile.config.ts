@@ -14,18 +14,18 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 6, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
-          forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['xzh0623/gitprofile','xzh0623/xzh0623','xzh0623/ca2024fhw06','xzh0623/ca2024f','xzh0623/ca2024fhw05'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false, // Forked projects will not be displayed if set to true.
+          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['xzh0623/TWB_HearingLoss', 'xzh0623/NLP','BioTechCo/main_project','xzh0623/StonePet-Haven'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['BioTechCo/main_project','xzh0623/TWB_HearingLoss', 'xzh0623/NLP','xzh0623/StonePet-Haven','xzh0623/Plants_vs_Zombies'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
   //   external: {
