@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['xzh0623/xzh0623','xzh0623/ca2024fhw06','xzh0623/ca2024f','xzh0623/ca2024fhw05'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['xzh0623/gitprofile','xzh0623/xzh0623','xzh0623/ca2024fhw06','xzh0623/ca2024f','xzh0623/ca2024fhw05'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -74,7 +74,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '陳庠蓁',
     telegram: '',
-    website: 'https://www.xzh0623.com',
+    website: 'https://xzh0623.github.io/gitprofile/',
     phone: '',
     email: 'ss612270623@gmail.com',
   },
