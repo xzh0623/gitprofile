@@ -90,7 +90,7 @@ const CONFIG = {
     'Matplotlib',
     'Machine/Deep Learning',
     'Scikit-Learn',
-    'Tensorflow',
+    'TensorFlow',
     'Keras',
     'Seaborn',
     'SHAP'
