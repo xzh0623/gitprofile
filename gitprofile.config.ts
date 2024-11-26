@@ -52,7 +52,7 @@ const CONFIG = {
   //   },
   },
   seo: {
-    title: 'Portfolio of Xiang-Zhen Chen',
+    title: 'Portfolio of Jolin Chen',
     description: '',
     imageURL: '',
   },
@@ -83,15 +83,17 @@ const CONFIG = {
       'https://drive.google.com/file/d/17SY-HZpC-kaBs7YBCYFmmI-hJPmStT5e/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
     'MySQL',
     'Python',
     'Git',
-    'CSS',
-    'Data-Analysis',
-    'Machine Learning',
+    'R',
+    'Matplotlib',
+    'Machine/Deep Learning',
     'Scikit-Learn',
-    'Tenserflow'
+    'Tensorflow',
+    'Keras',
+    'Seaborn',
+    'SHAP'
   ],
   experiences: [
     {
