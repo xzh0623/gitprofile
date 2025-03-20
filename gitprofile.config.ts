@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['BioTechCo/main_project','xzh0623/TWB_HearingLoss', 'xzh0623/NLP/Term Project','xzh0623/ca2024f','xzh0623/gitprofile','xzh0623/StonePet-Haven'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['BioTechCo/main_project','xzh0623/TWB_HearingLoss', 'xzh0623/NLP/','xzh0623/ca2024f','xzh0623/gitprofile','xzh0623/StonePet-Haven'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
   //   external: {
