@@ -80,20 +80,20 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/17SY-HZpC-kaBs7YBCYFmmI-hJPmStT5e/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1LWjD56HDiyf0ddcjU_iIhe_Ln1BlmOiE/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'MySQL',
+    'SQL',
     'Python',
     'Git',
-    'R',
+    'Scrum',
     'Matplotlib',
     'Machine/Deep Learning',
     'Scikit-Learn',
     'TensorFlow',
     'Keras',
-    'Seaborn',
-    'SHAP'
+    'C#',
+    'OOP'
   ],
   experiences: [
     {
@@ -102,6 +102,13 @@ const CONFIG = {
       from: 'July 2024',
       to: 'August 2024',
       companyLink: 'https://www.iis.sinica.edu.tw/zh/index.html',
+    },
+    {
+      company: 'Galaxy Software Services',
+      position: 'Associate Programmer',
+      from: 'Jan 2025',
+      to: 'Present',
+      companyLink: 'https://www.gss.com.tw/',
     },
   ],
   // certifications: [
@@ -132,7 +139,7 @@ const CONFIG = {
       conferenceName: 'ICS 2024 Conference Proceedings',
       // journalName: 'Journal Name',
       authors: 'Xiang-Zhen Chen, Chia-Yun Ou, Geng-Hong Hsiao, Hui-Wu Zhang, Tun-Wen Pai and Mee-Hoong See',
-      // link: 'https://ics2024.conf.nycu.edu.tw/',
+      link: 'https://drive.google.com/file/d/1_rMTIevKvNlk7yg97SqOfsGfZ0l49Shn/view?usp=sharing',
       // description:
       //   'According to World Health Organization (WHO) and World Cancer Research Fund International (WCRF International), breast cancer has become the most common cancer globally, significantly impacting women\'s health. This study utilized GDC and GEO public methylation chip datasets from breast cancer patients. Combined with comorbidity data analysis of these patients, critical biomarkers were identified through analyzing differential expression levels of methylation loci, serving as indicators for breast cancer risk assessment. Gene Ontology (GO) functional annotations were applied for hierarchical clustering. Functional similarities between any two genetic loci were evaluated based on their annotated GO terms, enabling the observation of candidate biomarker relationships for diagnosis biomarker selection. Furthermore, by integrating Boruta for feature selection and applying Recursive Feature Elimination (RFE) to evaluate the performance of various machine learning models, the optimal methylation biomarker combinations for breast cancer detection could be identified. The results identified eight important DNA methylation biomarkers, including CMTM5, PDCD1LG2, MIR124-3, NEFM, PTF1A, CX3CL1, PCYT2, and KCNE3 as important biomarker candidates. After functional clustering analysis, these markers exhibited excellent performance with three biomarker combinations for both tissue and liquid samples from breast cancer patients, with average prediction accuracies ranging from 0.91 to 0.93 for tissue samples and from 0.71 to 0.76 for liquid samples. Early observation of methylation differences from the suggested breast cancer biomarkers could prevent tumor formation and reduce the risk of surgical operations by early precision diagnosis and treatment.',
     },
