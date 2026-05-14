@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['BioTechCo/main_project','xzh0623/TWB_HearingLoss', 'xzh0623/NLP/','xzh0623/ca2024f','xzh0623/gitprofile','xzh0623/StonePet-Haven'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['BioTechCo/main_project','xzh0623/TWB_HearingLoss', 'xzh0623/NLP/','xzh0623/StonePet-Haven','xzh0623/ca2024f','xzh0623/gitprofile'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
   //   external: {
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/16KxrgIK9xXdv-RhrrWBsejvtbd-PFDVa/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1oMW84AuwDV3ll7GcHtFq-WdLex2aVVJe/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'SQL',
@@ -93,7 +93,8 @@ const CONFIG = {
     'TensorFlow',
     'Keras',
     'C#',
-    'OOP'
+    'OOP',
+    'Figma'
   ],
   experiences: [
     {
@@ -107,7 +108,7 @@ const CONFIG = {
       company: 'Galaxy Software Services',
       position: 'Associate Programmer',
       from: 'Jan 2025',
-      to: 'Present',
+      to: 'Aug 2025',
       companyLink: 'https://www.gss.com.tw/',
     },
   ],
@@ -120,9 +121,15 @@ const CONFIG = {
   //   },
   // ],
   educations: [
+     {
+      institution: 'National Taiwan University of Science and Technology',
+      degree: 'M.S., Computer Science and Information Engineering',
+      from: '2025',
+      to: 'Present',
+    },
     {
       institution: 'National Taipei University of Technology',
-      degree: 'CSIE Bachelor\'s Degree',
+      degree: 'B.S., Computer Science and Information Engineering',
       from: '2021',
       to: '2025',
     },
